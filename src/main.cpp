@@ -1,8 +1,11 @@
 #include <iostream>
+#include "Board.h"
 
 int main(int argc, char** argv)
 {
-    std::cout << "\n it works! \n";
+    Board board;
+    board.init();
+    board.draw();
     
     return 0;
 }
