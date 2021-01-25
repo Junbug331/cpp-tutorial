@@ -5,7 +5,7 @@ option(BUILD_TESTS "Turn on build for tests of CPPTutorial" OFF)
 set(CMAKE_CXX_STANDARD 17)
 set(OUTPUT_ELF ${CMAKE_PROJECT_NAME})
 set(SRC_FILES 
-    src/board.cpp
+    src/Board.cpp
     src/Game.cpp
     src/main.cpp
 )
